@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE3C46BB1F0B46AD00AD0900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3C46BA1F0B46AD00AD0900 /* AppDelegate.swift */; };
+		EE3C46BD1F0B46AD00AD0900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3C46BC1F0B46AD00AD0900 /* ViewController.swift */; };
+		EE3C46C01F0B46AD00AD0900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3C46BE1F0B46AD00AD0900 /* Main.storyboard */; };
+		EE3C46C21F0B46AD00AD0900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3C46C11F0B46AD00AD0900 /* Assets.xcassets */; };
+		EE3C46C51F0B46AD00AD0900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3C46C31F0B46AD00AD0900 /* LaunchScreen.storyboard */; };
+		EE3C46D01F0B46AE00AD0900 /* Rotate3DViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3C46CF1F0B46AE00AD0900 /* Rotate3DViewTests.swift */; };
+		EE3C46DB1F0B46AE00AD0900 /* Rotate3DViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3C46DA1F0B46AE00AD0900 /* Rotate3DViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE3C46CC1F0B46AE00AD0900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE3C46AF1F0B46AD00AD0900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE3C46B61F0B46AD00AD0900;
+			remoteInfo = Rotate3DView;
+		};
+		EE3C46D71F0B46AE00AD0900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE3C46AF1F0B46AD00AD0900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE3C46B61F0B46AD00AD0900;
+			remoteInfo = Rotate3DView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE3C46B71F0B46AD00AD0900 /* Rotate3DView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rotate3DView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3C46BA1F0B46AD00AD0900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE3C46BC1F0B46AD00AD0900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE3C46BF1F0B46AD00AD0900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE3C46C11F0B46AD00AD0900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE3C46C41F0B46AD00AD0900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE3C46C61F0B46AD00AD0900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3C46CB1F0B46AE00AD0900 /* Rotate3DViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rotate3DViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3C46CF1F0B46AE00AD0900 /* Rotate3DViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotate3DViewTests.swift; sourceTree = "<group>"; };
+		EE3C46D11F0B46AE00AD0900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE3C46D61F0B46AE00AD0900 /* Rotate3DViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rotate3DViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3C46DA1F0B46AE00AD0900 /* Rotate3DViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotate3DViewUITests.swift; sourceTree = "<group>"; };
+		EE3C46DC1F0B46AE00AD0900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE3C46B41F0B46AD00AD0900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3C46C81F0B46AE00AD0900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3C46D31F0B46AE00AD0900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE3C46AE1F0B46AD00AD0900 = {
+			isa = PBXGroup;
+			children = (
+				EE3C46B91F0B46AD00AD0900 /* Rotate3DView */,
+				EE3C46CE1F0B46AE00AD0900 /* Rotate3DViewTests */,
+				EE3C46D91F0B46AE00AD0900 /* Rotate3DViewUITests */,
+				EE3C46B81F0B46AD00AD0900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE3C46B81F0B46AD00AD0900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE3C46B71F0B46AD00AD0900 /* Rotate3DView.app */,
+				EE3C46CB1F0B46AE00AD0900 /* Rotate3DViewTests.xctest */,
+				EE3C46D61F0B46AE00AD0900 /* Rotate3DViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE3C46B91F0B46AD00AD0900 /* Rotate3DView */ = {
+			isa = PBXGroup;
+			children = (
+				EE3C46BA1F0B46AD00AD0900 /* AppDelegate.swift */,
+				EE3C46BC1F0B46AD00AD0900 /* ViewController.swift */,
+				EE3C46BE1F0B46AD00AD0900 /* Main.storyboard */,
+				EE3C46C11F0B46AD00AD0900 /* Assets.xcassets */,
+				EE3C46C31F0B46AD00AD0900 /* LaunchScreen.storyboard */,
+				EE3C46C61F0B46AD00AD0900 /* Info.plist */,
+			);
+			path = Rotate3DView;
+			sourceTree = "<group>";
+		};
+		EE3C46CE1F0B46AE00AD0900 /* Rotate3DViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE3C46CF1F0B46AE00AD0900 /* Rotate3DViewTests.swift */,
+				EE3C46D11F0B46AE00AD0900 /* Info.plist */,
+			);
+			path = Rotate3DViewTests;
+			sourceTree = "<group>";
+		};
+		EE3C46D91F0B46AE00AD0900 /* Rotate3DViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE3C46DA1F0B46AE00AD0900 /* Rotate3DViewUITests.swift */,
+				EE3C46DC1F0B46AE00AD0900 /* Info.plist */,
+			);
+			path = Rotate3DViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE3C46B61F0B46AD00AD0900 /* Rotate3DView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3C46DF1F0B46AE00AD0900 /* Build configuration list for PBXNativeTarget "Rotate3DView" */;
+			buildPhases = (
+				EE3C46B31F0B46AD00AD0900 /* Sources */,
+				EE3C46B41F0B46AD00AD0900 /* Frameworks */,
+				EE3C46B51F0B46AD00AD0900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rotate3DView;
+			productName = Rotate3DView;
+			productReference = EE3C46B71F0B46AD00AD0900 /* Rotate3DView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE3C46CA1F0B46AE00AD0900 /* Rotate3DViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3C46E21F0B46AE00AD0900 /* Build configuration list for PBXNativeTarget "Rotate3DViewTests" */;
+			buildPhases = (
+				EE3C46C71F0B46AE00AD0900 /* Sources */,
+				EE3C46C81F0B46AE00AD0900 /* Frameworks */,
+				EE3C46C91F0B46AE00AD0900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE3C46CD1F0B46AE00AD0900 /* PBXTargetDependency */,
+			);
+			name = Rotate3DViewTests;
+			productName = Rotate3DViewTests;
+			productReference = EE3C46CB1F0B46AE00AD0900 /* Rotate3DViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE3C46D51F0B46AE00AD0900 /* Rotate3DViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE3C46E51F0B46AE00AD0900 /* Build configuration list for PBXNativeTarget "Rotate3DViewUITests" */;
+			buildPhases = (
+				EE3C46D21F0B46AE00AD0900 /* Sources */,
+				EE3C46D31F0B46AE00AD0900 /* Frameworks */,
+				EE3C46D41F0B46AE00AD0900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE3C46D81F0B46AE00AD0900 /* PBXTargetDependency */,
+			);
+			name = Rotate3DViewUITests;
+			productName = Rotate3DViewUITests;
+			productReference = EE3C46D61F0B46AE00AD0900 /* Rotate3DViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE3C46AF1F0B46AD00AD0900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "覃子轩";
+				TargetAttributes = {
+					EE3C46B61F0B46AD00AD0900 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					EE3C46CA1F0B46AE00AD0900 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE3C46B61F0B46AD00AD0900;
+					};
+					EE3C46D51F0B46AE00AD0900 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE3C46B61F0B46AD00AD0900;
+					};
+				};
+			};
+			buildConfigurationList = EE3C46B21F0B46AD00AD0900 /* Build configuration list for PBXProject "Rotate3DView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE3C46AE1F0B46AD00AD0900;
+			productRefGroup = EE3C46B81F0B46AD00AD0900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE3C46B61F0B46AD00AD0900 /* Rotate3DView */,
+				EE3C46CA1F0B46AE00AD0900 /* Rotate3DViewTests */,
+				EE3C46D51F0B46AE00AD0900 /* Rotate3DViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE3C46B51F0B46AD00AD0900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3C46C51F0B46AD00AD0900 /* LaunchScreen.storyboard in Resources */,
+				EE3C46C21F0B46AD00AD0900 /* Assets.xcassets in Resources */,
+				EE3C46C01F0B46AD00AD0900 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3C46C91F0B46AE00AD0900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3C46D41F0B46AE00AD0900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE3C46B31F0B46AD00AD0900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3C46BD1F0B46AD00AD0900 /* ViewController.swift in Sources */,
+				EE3C46BB1F0B46AD00AD0900 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3C46C71F0B46AE00AD0900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3C46D01F0B46AE00AD0900 /* Rotate3DViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3C46D21F0B46AE00AD0900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE3C46DB1F0B46AE00AD0900 /* Rotate3DViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE3C46CD1F0B46AE00AD0900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE3C46B61F0B46AD00AD0900 /* Rotate3DView */;
+			targetProxy = EE3C46CC1F0B46AE00AD0900 /* PBXContainerItemProxy */;
+		};
+		EE3C46D81F0B46AE00AD0900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE3C46B61F0B46AD00AD0900 /* Rotate3DView */;
+			targetProxy = EE3C46D71F0B46AE00AD0900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE3C46BE1F0B46AD00AD0900 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3C46BF1F0B46AD00AD0900 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE3C46C31F0B46AD00AD0900 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE3C46C41F0B46AD00AD0900 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE3C46DD1F0B46AE00AD0900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE3C46DE1F0B46AE00AD0900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE3C46E01F0B46AE00AD0900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rotate3DView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiesst.Rotate3DView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE3C46E11F0B46AE00AD0900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rotate3DView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiesst.Rotate3DView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE3C46E31F0B46AE00AD0900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Rotate3DViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiesst.Rotate3DViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rotate3DView.app/Rotate3DView";
+			};
+			name = Debug;
+		};
+		EE3C46E41F0B46AE00AD0900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Rotate3DViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiesst.Rotate3DViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rotate3DView.app/Rotate3DView";
+			};
+			name = Release;
+		};
+		EE3C46E61F0B46AE00AD0900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Rotate3DViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiesst.Rotate3DViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Rotate3DView;
+			};
+			name = Debug;
+		};
+		EE3C46E71F0B46AE00AD0900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Rotate3DViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiesst.Rotate3DViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Rotate3DView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE3C46B21F0B46AD00AD0900 /* Build configuration list for PBXProject "Rotate3DView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3C46DD1F0B46AE00AD0900 /* Debug */,
+				EE3C46DE1F0B46AE00AD0900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE3C46DF1F0B46AE00AD0900 /* Build configuration list for PBXNativeTarget "Rotate3DView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3C46E01F0B46AE00AD0900 /* Debug */,
+				EE3C46E11F0B46AE00AD0900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE3C46E21F0B46AE00AD0900 /* Build configuration list for PBXNativeTarget "Rotate3DViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3C46E31F0B46AE00AD0900 /* Debug */,
+				EE3C46E41F0B46AE00AD0900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE3C46E51F0B46AE00AD0900 /* Build configuration list for PBXNativeTarget "Rotate3DViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3C46E61F0B46AE00AD0900 /* Debug */,
+				EE3C46E71F0B46AE00AD0900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE3C46AF1F0B46AD00AD0900 /* Project object */;
+}
